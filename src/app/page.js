@@ -129,10 +129,10 @@ const EmailSubscriptionSite = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-100 relative overflow-hidden">
-      {/* Scrolling Quotes Background - 6 Rows (40% from top, 30% from bottom) */}
+      {/* Scrolling Quotes Background - Responsive positioning */}
       
-      {/* Row 1 - Starting at 40% from top */}
-      <div className="fixed top-[42%] left-0 w-full z-0 pointer-events-none">
+      {/* Row 1 - Desktop: 42% from top, Mobile: 62% from top */}
+      <div className="fixed top-[42%] md:top-[42%] sm:top-[62%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll-reverse flex whitespace-nowrap">
             {motivationalQuotes.slice(12, 16).map((quote, index) => (
@@ -140,7 +140,7 @@ const EmailSubscriptionSite = () => {
                 key={`row1-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-orange-200/35 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(12, 16).map((quote, index) => (
@@ -148,15 +148,15 @@ const EmailSubscriptionSite = () => {
                 key={`row1-second-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-orange-200/35 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Row 2 - 40% + 5% of middle section */}
-      <div className="fixed top-[47%] left-0 w-full z-0 pointer-events-none">
+      {/* Row 2 - Desktop: 47% from top, Mobile: 67% from top */}
+      <div className="fixed top-[47%] md:top-[47%] sm:top-[67%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll flex whitespace-nowrap">
             {motivationalQuotes.slice(0, 8).map((quote, index) => (
@@ -164,7 +164,7 @@ const EmailSubscriptionSite = () => {
                 key={`row2-first-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-amber-300/50 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(0, 8).map((quote, index) => (
@@ -172,15 +172,15 @@ const EmailSubscriptionSite = () => {
                 key={`row2-second-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-amber-300/50 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Row 3 - 40% + 10% of middle section */}
-      <div className="fixed top-[52%] left-0 w-full z-0 pointer-events-none">
+      {/* Row 3 - Desktop: 52% from top, Mobile: 72% from top */}
+      <div className="fixed top-[52%] md:top-[52%] sm:top-[72%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll flex whitespace-nowrap">
             {motivationalQuotes.slice(8).map((quote, index) => (
@@ -188,7 +188,7 @@ const EmailSubscriptionSite = () => {
                 key={`row3-first-${index}`}
                 className="inline-block px-4 md:px-8 text-lg md:text-2xl font-light text-orange-400/60 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(8).map((quote, index) => (
@@ -196,15 +196,15 @@ const EmailSubscriptionSite = () => {
                 key={`row3-second-${index}`}
                 className="inline-block px-4 md:px-8 text-lg md:text-2xl font-light text-orange-400/60 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Row 4 - 40% + 15% of middle section */}
-      <div className="fixed top-[57%] left-0 w-full z-0 pointer-events-none">
+      {/* Row 4 - Desktop: 57% from top, Mobile: 77% from top */}
+      <div className="fixed top-[57%] md:top-[57%] sm:top-[77%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll-reverse flex whitespace-nowrap">
             {motivationalQuotes.slice(4, 12).map((quote, index) => (
@@ -212,7 +212,7 @@ const EmailSubscriptionSite = () => {
                 key={`row4-first-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-yellow-400/40 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(4, 12).map((quote, index) => (
@@ -220,15 +220,15 @@ const EmailSubscriptionSite = () => {
                 key={`row4-second-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-yellow-400/40 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Row 5 - 40% + 20% of middle section */}
-      <div className="fixed top-[62%] left-0 w-full z-0 pointer-events-none">
+      {/* Row 5 - Desktop: 62% from top, Mobile: 82% from top */}
+      <div className="fixed top-[62%] md:top-[62%] sm:top-[82%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll flex whitespace-nowrap">
             {motivationalQuotes.slice(0, 6).map((quote, index) => (
@@ -236,7 +236,7 @@ const EmailSubscriptionSite = () => {
                 key={`row5-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-amber-200/30 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(0, 6).map((quote, index) => (
@@ -244,15 +244,15 @@ const EmailSubscriptionSite = () => {
                 key={`row5-second-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-amber-200/30 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Row 6 - 40% + 25% of middle section (ending before 30% from bottom) */}
-      <div className="fixed top-[67%] left-0 w-full z-0 pointer-events-none">
+      {/* Row 6 - Desktop: 67% from top, Mobile: 87% from top */}
+      <div className="fixed top-[67%] md:top-[67%] sm:top-[87%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll-reverse flex whitespace-nowrap">
             {motivationalQuotes.slice(6, 10).map((quote, index) => (
@@ -260,7 +260,7 @@ const EmailSubscriptionSite = () => {
                 key={`row6-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-yellow-300/25 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(6, 10).map((quote, index) => (
@@ -268,7 +268,7 @@ const EmailSubscriptionSite = () => {
                 key={`row6-second-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-yellow-300/25 select-none"
               >
-                &quot;{quote}&quot;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
