@@ -279,7 +279,7 @@ const EmailSubscriptionSite = () => {
       <div className="relative z-10">
         {/* Header Section */}
         <div className="text-center pt-16 pb-8 relative z-20">
-          <h1 className="text-6xl font-bold bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-amber-600 to-yellow-600 bg-clip-text text-transparent mb-6">
             NewsletterHub
           </h1>
           <div className="max-w-2xl mx-auto px-4">
