@@ -132,7 +132,7 @@ const EmailSubscriptionSite = () => {
       {/* Scrolling Quotes Background - Responsive positioning */}
       
       {/* Row 1 - Desktop: 42% from top, Mobile: 62% from top */}
-      <div className="fixed top-[42%] md:top-[42%] sm:top-[62%] left-0 w-full z-0 pointer-events-none">
+      <div className="fixed top-[62%] md:top-[42%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll-reverse flex whitespace-nowrap">
             {motivationalQuotes.slice(12, 16).map((quote, index) => (
@@ -156,7 +156,7 @@ const EmailSubscriptionSite = () => {
       </div>
 
       {/* Row 2 - Desktop: 47% from top, Mobile: 67% from top */}
-      <div className="fixed top-[47%] md:top-[47%] sm:top-[67%] left-0 w-full z-0 pointer-events-none">
+      <div className="fixed top-[67%] md:top-[47%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll flex whitespace-nowrap">
             {motivationalQuotes.slice(0, 8).map((quote, index) => (
@@ -180,7 +180,7 @@ const EmailSubscriptionSite = () => {
       </div>
 
       {/* Row 3 - Desktop: 52% from top, Mobile: 72% from top */}
-      <div className="fixed top-[52%] md:top-[52%] sm:top-[72%] left-0 w-full z-0 pointer-events-none">
+      <div className="fixed top-[72%] md:top-[52%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll flex whitespace-nowrap">
             {motivationalQuotes.slice(8).map((quote, index) => (
@@ -204,7 +204,7 @@ const EmailSubscriptionSite = () => {
       </div>
 
       {/* Row 4 - Desktop: 57% from top, Mobile: 77% from top */}
-      <div className="fixed top-[57%] md:top-[57%] sm:top-[77%] left-0 w-full z-0 pointer-events-none">
+      <div className="fixed top-[77%] md:top-[57%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll-reverse flex whitespace-nowrap">
             {motivationalQuotes.slice(4, 12).map((quote, index) => (
@@ -228,7 +228,7 @@ const EmailSubscriptionSite = () => {
       </div>
 
       {/* Row 5 - Desktop: 62% from top, Mobile: 82% from top */}
-      <div className="fixed top-[62%] md:top-[62%] sm:top-[82%] left-0 w-full z-0 pointer-events-none">
+      <div className="fixed top-[82%] md:top-[62%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll flex whitespace-nowrap">
             {motivationalQuotes.slice(0, 6).map((quote, index) => (
@@ -252,7 +252,7 @@ const EmailSubscriptionSite = () => {
       </div>
 
       {/* Row 6 - Desktop: 67% from top, Mobile: 87% from top */}
-      <div className="fixed top-[67%] md:top-[67%] sm:top-[87%] left-0 w-full z-0 pointer-events-none">
+      <div className="fixed top-[87%] md:top-[67%] left-0 w-full z-0 pointer-events-none">
         <div className="relative overflow-hidden py-1">
           <div className="animate-scroll-reverse flex whitespace-nowrap">
             {motivationalQuotes.slice(6, 10).map((quote, index) => (
