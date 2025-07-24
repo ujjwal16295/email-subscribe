@@ -140,7 +140,7 @@ const EmailSubscriptionSite = () => {
                 key={`row1-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-orange-200/35 select-none"
               >
-&ldquo;{quote}&rdquo;
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(12, 16).map((quote, index) => (
@@ -148,7 +148,7 @@ const EmailSubscriptionSite = () => {
                 key={`row1-second-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-orange-200/35 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
@@ -164,7 +164,7 @@ const EmailSubscriptionSite = () => {
                 key={`row2-first-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-amber-300/50 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(0, 8).map((quote, index) => (
@@ -172,7 +172,7 @@ const EmailSubscriptionSite = () => {
                 key={`row2-second-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-amber-300/50 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
@@ -188,7 +188,7 @@ const EmailSubscriptionSite = () => {
                 key={`row3-first-${index}`}
                 className="inline-block px-4 md:px-8 text-lg md:text-2xl font-light text-orange-400/60 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(8).map((quote, index) => (
@@ -196,7 +196,7 @@ const EmailSubscriptionSite = () => {
                 key={`row3-second-${index}`}
                 className="inline-block px-4 md:px-8 text-lg md:text-2xl font-light text-orange-400/60 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
@@ -212,7 +212,7 @@ const EmailSubscriptionSite = () => {
                 key={`row4-first-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-yellow-400/40 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(4, 12).map((quote, index) => (
@@ -220,7 +220,7 @@ const EmailSubscriptionSite = () => {
                 key={`row4-second-${index}`}
                 className="inline-block px-4 md:px-8 text-base md:text-xl font-light text-yellow-400/40 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
@@ -236,7 +236,7 @@ const EmailSubscriptionSite = () => {
                 key={`row5-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-amber-200/30 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(0, 6).map((quote, index) => (
@@ -244,7 +244,7 @@ const EmailSubscriptionSite = () => {
                 key={`row5-second-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-amber-200/30 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
@@ -260,7 +260,7 @@ const EmailSubscriptionSite = () => {
                 key={`row6-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-yellow-300/25 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(6, 10).map((quote, index) => (
@@ -268,7 +268,7 @@ const EmailSubscriptionSite = () => {
                 key={`row6-second-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-yellow-300/25 select-none"
               >
-                "{quote}"
+                &ldquo;{quote}&rdquo;
               </span>
             ))}
           </div>
