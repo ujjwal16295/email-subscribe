@@ -82,7 +82,7 @@ const EmailSubscriptionSite = () => {
       });
 
       if (!response.ok) {
-        throw new Error(`HTTP eror! status: ${response.status}`);
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
 
       const result = await response.json();
@@ -140,7 +140,7 @@ const EmailSubscriptionSite = () => {
                 key={`row1-first-${index}`}
                 className="inline-block px-4 md:px-8 text-sm md:text-lg font-light text-orange-200/35 select-none"
               >
-                "{quote}"
+&ldquo;{quote}&rdquo;
               </span>
             ))}
             {motivationalQuotes.slice(12, 16).map((quote, index) => (
